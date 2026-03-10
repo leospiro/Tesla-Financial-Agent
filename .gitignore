@@ -1,0 +1,26 @@
+# 环境配置与密码 (Secrets & Configs)
+.env
+.env.*
+
+# Python 环境关联
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+backend/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 数据与数据库日志存放
+chroma_db/
+logs/
+reports/
+
+# IDE 与编辑器关联 
+.vscode/
+.idea/
+.spyderproject
